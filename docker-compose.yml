@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  ksp-crime-intel-platform:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ksp-crime-intel-app
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - JWT_SECRET=ksp-intel-secure-secret-key-2026
+    restart: unless-stopped
