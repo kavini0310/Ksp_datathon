@@ -21205,13 +21205,83 @@
       "details": "User logged in successfully",
       "timestamp": "2026-07-24T14:59:47.055Z",
       "createdAt": "2026-07-24T14:59:47.056Z"
+    },
+    {
+      "id": "728e3555-e25a-456e-9de8-6b5db0cdf54e",
+      "username": "admin",
+      "role": "Administrator",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "User logged in successfully",
+      "timestamp": "2026-07-26T12:59:18.220Z",
+      "createdAt": "2026-07-26T12:59:18.222Z"
+    },
+    {
+      "id": "f65c15e0-06fb-4a37-9dc0-dbf09f023446",
+      "username": "scrb",
+      "role": "SCRB Officer",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "User logged in successfully",
+      "timestamp": "2026-07-26T13:01:55.988Z",
+      "createdAt": "2026-07-26T13:01:55.988Z"
+    },
+    {
+      "id": "8bb0237a-dc41-4b4f-aca6-e6307aef3b92",
+      "username": "station_kor",
+      "role": "Police Station Officer",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "User logged in successfully",
+      "timestamp": "2026-07-26T17:41:04.379Z",
+      "createdAt": "2026-07-26T17:41:04.384Z"
+    },
+    {
+      "id": "4037bc6a-7c21-448d-bbfd-8cd78c257252",
+      "username": "station_kor",
+      "role": "Police Station Officer",
+      "action": "UPDATE_CASE",
+      "ip": "::1",
+      "details": "Updated case progress or details for case ID: case_1",
+      "timestamp": "2026-07-26T17:42:41.116Z",
+      "createdAt": "2026-07-26T17:42:41.117Z"
+    },
+    {
+      "id": "fdfddba5-e8f4-40ea-9f92-29e1492ea2d9",
+      "username": "district_blr",
+      "role": "District Officer",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "User logged in successfully",
+      "timestamp": "2026-07-27T08:29:36.436Z",
+      "createdAt": "2026-07-27T08:29:36.442Z"
+    },
+    {
+      "id": "25ffb544-f20e-4efa-91e6-08c9201657ff",
+      "username": "admin",
+      "role": "Administrator",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "User logged in successfully",
+      "timestamp": "2026-07-27T08:35:04.944Z",
+      "createdAt": "2026-07-27T08:35:04.944Z"
+    },
+    {
+      "id": "da289b86-fc5b-4670-8823-ddbf0336f2f1",
+      "username": "admin",
+      "role": "Administrator",
+      "action": "USER_LOGIN",
+      "ip": "::1",
+      "details": "User logged in successfully",
+      "timestamp": "2026-07-30T15:54:23.894Z",
+      "createdAt": "2026-07-30T15:54:23.899Z"
     }
   ],
   "cases": [
     {
       "id": "case_1",
       "fir_id": "FIR-BLR-2025-1002",
-      "assigned_officer": "Satish Kumar",
+      "assigned_officer": "Archana Patil",
       "progress": 49,
       "status": "Active",
       "diary": [
@@ -21223,7 +21293,8 @@
           "date": "2025-07-25T16:50:46.153Z",
           "entry": "Visited crime scene and drew spot mahazar."
         }
-      ]
+      ],
+      "updatedAt": "2026-07-26T17:42:41.084Z"
     },
     {
       "id": "case_2",
