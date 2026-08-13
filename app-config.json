@@ -1,0 +1,9 @@
+{
+  "command": "node server/server.js",
+  "stack": "nodejs20",
+  "memory": 256,
+  "env_variables": {
+    "NODE_ENV": "production",
+    "JWT_SECRET": "ksp-intel-secure-secret-key-2026"
+  }
+}

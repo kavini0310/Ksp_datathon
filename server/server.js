@@ -12,7 +12,7 @@ const graphRouter = require('./routes/graph');
 const aiRouter = require('./routes/ai');
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.X_ZOHO_CATALYST_LISTEN_PORT || process.env.PORT || 5000;
 
 // Enable CORS and parsers
 app.use(cors());
