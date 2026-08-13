@@ -1,6 +1,6 @@
 {
   "command": "node server/server.js",
-  "stack": "nodejs20",
+  "stack": "nodejs22",
   "memory": 256,
   "env_variables": {
     "NODE_ENV": "production",
